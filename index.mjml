@@ -1,0 +1,453 @@
+<mjml>
+  <mj-head>
+    <mj-raw>
+      <!-- Whatever styles you put in here becomes a style inside of the style tag.  Becomes CSS properties inside of the style tag -->
+    </mj-raw>
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .link-color {
+        color: #0000ee;
+        text-decoration: underline;
+      }
+
+      .button-color {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      .button-color:hover {
+        color: #ffffff;
+      }
+    </mj-style>
+    <mj-raw>
+      <!-- Uses the different classes that you decide to create.  Takes styles from here and inlines it with specific tables -->
+    </mj-raw>
+    <mj-style inline="inline">
+
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#fafafa">
+    <mj-raw>
+      <!-- Pre-Header -->
+    </mj-raw>
+    <mj-section padding="12px 0 12px 0" background-color="#fafafa" css-class="header">
+      <mj-column width="100%">
+        <mj-text font-style="italic" font-family="tahoma,verdana,segoe,sans-serif" color="#656565" font-size="12px" align="right" padding="9.5px 9px" text-decoration="underline">
+          View this email in your browser
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Header -->
+    </mj-raw>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-image padding="9px 0px 0px 0px" container-background-color="#ffffff" padding-top="9px" src="/assets/goodacre.png" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text line-height="125%" font-weight="bold" font-style="normal" font-size="26px" font-family="Helvetica" align="center">
+          Farm Share Week 10!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Text Sections -->
+    </mj-raw>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text padding="23px 18px" color="#202020" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Hello, Farm Share members!
+        </mj-text>
+        <mj-text padding="23px 18px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          We are entering the height of summer now - corn, melons, peppers, and tomatoes abound or are getting ready to explode in volume! It's a wondrous, though very busy time in our warehouse. Here at TGA, the majority of this abundance comes from BIPOC farmers who rent their land. While some farmers are content with where they are at in their business, and don't necessarily want to expand a lot or own their own land, many do. The process of finding land is long and difficult, and of course, the expense of buying it is often inhibitive. According to the USDA, access to land, and capital, is <a href="https://www.usda.gov/media/blog/2013/01/31/access-land-capital-biggest-obstacle-beginning-farmers" target="_blank" class="link-color">largest hurdle for emerging farmers</a>. A few of the farmers we work with have recently finalized purchases on their farms, and the process has taken years for several of them.
+        </mj-text>
+        <mj-text padding="23px 18px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Historically, it has been harder, or nearly impossible, for BIPOC (and specifically Black farmers in the US) <a href="https://www.usda.gov/media/blog/2013/01/31/access-land-capital-biggest-obstacle-beginning-farmers" target="_blank" class="link-color">to secure loans from the USDA</a>, and the majority immigrant farmers we work with today have added barriers of language, different cultural norms around business, and having to start anew to the already difficult job of farming.
+          Owning your own land allows for building generational wealth, and currently mostly white farmers own their own farmland. (Add to this the fact that extremely rich people like Bill Gates - who last year became the largest private landowner in the US - are buying up farmland, which brings up a whole other host of issues like consolidation of land and wealth.) It also means that farmers have more control over how they farm. Many farmers we work with would like to do more building up of their soil, or growing perennial crops, but with the uncertainty of renting and not knowing when you might have to leave, these more expensive, longer-term investments don't make a lot of sense.
+        </mj-text>
+        <mj-text padding="23px 18px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Your support of TGA already means you are helping small farmers grow their business and further their farm goals, but there are lots of great organizations here in MN helping farmers find land, navigate the banking and business aspects of farming, and finance purchases, like the <a href="https://landstewardshipproject.org/" target="_blank" class="link-color"><span style="color:#008080;">Land Stewardship Project</span></a>, <a href="https://www.renewingthecountryside.org/" target="_blank" class="link-color"><span style="color:#008080;">Renewing the Countryside</span></a>, <a href="https://hmong.org/" target="_blank" class="link-color"><span style="color:#008080;">the Hmong American Partnership</span></a>, and the <a href="https://millcityfarmersmarket.org/grants/" target="_blank" class="link-color"><span style="color:#008080;">Mill City Farmers Market Charitable Fund</span></a>. Check out their work, and if land access is an interesting topic to you, there are tons of organizations around the US that are doing <a href="https://www.agrariantrust.org/" target="_blank" class="link-color">similar work</a> (look up some land back orgs as an adjacent topic!).
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-button border-radius="7px" font-family="Arial" background-color="#003d2b" color="white" width="163px" height="52px" color="#000000" line-height="100%" font-weight="bold" font-size="16px" font-family="Arial" align="center" inner-padding="0">
+          <a href="https://mcusercontent.com/f796f4d9d82a67eb73999a426/files/267e7b0b-a9ac-a535-b6bc-4c46e2abb536/Week_10_Checklist_2022.pdf" target="_blank" class="button-color">Veggie Checklist</a>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="18px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text padding="0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Sincerely,
+        </mj-text>
+        <mj-image align="left" height="65px" width="100px" padding="0px 0px 0px 0px" container-background-color="#ffffff" src="/assets/karin.png" />
+        <mj-text padding="0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Karin Davey<br>
+          Farm Share Manager<br>
+        </mj-text>
+        <mj-text padding="0px" color="#0000ee" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          <a href="mailto:karin@thegoodacre.org" target="_blank" class="link-color"><span style="color:#008080;">karin@thegoodacre.org</span></a>
+        </mj-text>
+        <mj-text padding="0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          <mark>P.S. Please return your wax boxes flattened. Here are two handy short videos to show you how to quickly <a href="https://www.youtube.com/shorts/F_tBAEy1T9U" target="_blank" class="link-color">open up</a> and <a href="https://www.youtube.com/shorts/tdEfUZrj-b4" target="_blank" class="link-color">break down</a> your farm share boxes!</mark>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Divider -->
+    </mj-raw>
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-divider padding="18px" border-width="2px" border-style="solid" border-color="#eaeaea" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- In the box this week section -->
+    </mj-raw>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text line-height="125%" font-weight="bold" font-style="normal" font-size="26px" font-family="Helvetica" align="center">
+          In the Box This Week
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-image padding="0" container-background-color="#ffffff" padding-top="9px" src="/assets/veggies.jpg" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="bold" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          1. Cabbage from The Early Birds and Featherstone Farm
+        </mj-text>
+        <mj-text padding="0px 18px 23px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          The first cabbage of the season is here! Try this tasty <a href="https://www.foodnetwork.com/recipes/bobby-flay/creamy-cole-slaw-recipe-1942541" target="_blank" class="link-color">creamy coleslaw</a> recipe this week or <a href="https://hostessatheart.com/thai-basil-cabbage-slaw/#recipe" target="_blank" class="link-color">this one</a> which features cucumbers and jalapeño. If you're looking to fire up the grill, try this recipe for <a href="https://www.wellplated.com/cabbage-steaks/" target="_blank" class="link-color">grilled cabbage steaks</a>. Another winner is this <a href="https://lindseyeatsla.com/caramelized-leek-and-cabbage-pasta-with-lemon/" target="_blank" class="link-color">caramelized cabbage and leek pasta</a>, pair with a nice glass of Sangiovese.
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="0px 18px 0" color="#000000" line-height="200%" font-weight="bold" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          2. Cucumbers from Agua Gorda Farm, Choua Yang, Pheng Yang, and The Early Birds
+        </mj-text>
+        <mj-text padding="0px 18px 23px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          If you are looking for new cuke recipes, try my fave: cucumber syrup! Just combine sliced cucumbers and sugar overnight in the fridge and strain in the morning! Makes a nice refreshing drink mixed with fizzy water and mint or basil. If you're over cucumber salad, try making these <a href="https://momstestkitchen.com/stuffed-cucumber-cups/" target="_blank" class="link-color"> cucumber cups</a>, they are the perfect little edible bowl for tuna salad, chicken salad or a creamy cheesy filling.
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="0px 18px" color="#000000" line-height="200%" font-weight="bold" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          3. Jalapeños from The Carrillo Brothers and Santa Rosa Farm
+        </mj-text>
+        <mj-text padding="0px 18px 23px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          A classic way to go is <a href="https://www.spendwithpennies.com/jalapeno-poppers/" target="_blank" class="link-color">jalapeño poppers</a>, but you can tone them down a bit with <a href="https://www.thechunkychef.com/baked-jalapeno-popper-mac-cheese/#wprm-recipe-container-12500" target="_blank" class="link-color"> jalapeño popper mac n' cheese</a>. Give your <a href="https://www.spendwithpennies.com/easy-corn-fritters/" target="_blank" class="link-color">corn fritters</a> a kick, or add a lil something to rice bowls with <a href="https://www.chilipeppermadness.com/chili-pepper-recipes/guacamole/extra-creamy-roasted-jalapeno-guacamole/" target="_blank" class="link-color">jalapeño guac</a>. If you've got extra watermelon laying around, mix them into a <a href="https://www.yayforfood.com/recipes/watermelon-cucumber-jalapeno-salad/" target="_blank" class="link-color">cucumber jalapeño salad</a>.
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="0px 18px" color="#000000" line-height="200%" font-weight="bold" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          4. Leeks from Hope Organics and Pheng Yang
+        </mj-text>
+        <mj-text padding="0px 18px 23px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Leeks originated in Asia, were common on the menu in ancient Egypt and Rome, and are the national symbol of the Welsh! Read more about the <a href="https://www.britishleeks.co.uk/leeks-a-short-history/" target="_blank" class="link-color">history of leeks here</a>. We're big fans of <a href="https://www.onceuponachef.com/recipes/potato-leek-soup.html" target="_blank" class="link-color">potato and leek soup</a> but you can still enjoy this dynamic duo in a <a href="https://www.bonappetit.com/recipe/potato-and-celery-root-gratin-with-leeks" target="_blank" class="link-color">celery gratin</a> to stir it up. You can also <a href="https://www.fromvalerieskitchen.com/sauteed-cabbage-with-leeks-and-bacon/" target="_blank" class="link-color">sauté leeks with cabbage</a> for a side dish with meats.
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="0px 18px" color="#000000" line-height="200%" font-weight="bold" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          5. Sweet Corn from Healthy Greens Farm, Santa Rosa Farm, and The Early Bird
+        </mj-text>
+        <mj-text padding="0px 18px 23px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          There are so many ways to enjoy corn. If you don't have a grill, you can do <a href="https://www.southernliving.com/recipes/oven-roasted-corn-on-cob" target="_blank" class="link-color">baked on the cob</a>! Or cool down with <a href="https://www.loveandlemons.com/sweet-corn-gazpacho/" target="_blank" class="link-color">sweet corn gazpacho</a> and a side of <a href="https://iwashyoudry.com/creamy-corn-salad-recipe/" target="_blank" class="link-color">creamy corn salad</a>. Corn will also pair perfectly with leeks and chard so try this recipe for a <a href="https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/" target="_blank" class="link-color">Leek, Chard, and Corn Flatbreadwhich</a>. <a href="https://facts.net/corn-facts/" target="_blank" class="link-color">Fun Fact</a>: this week's sweet corn is one of six major varieties of corn (sweet corn contains low starch content) plus corn can be grown on every continent except Antarctica!
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="0px 18px" color="#000000" line-height="200%" font-weight="bold" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          6. Swiss Chard from Dawn 2 Dusk Farm and The Early Birds
+        </mj-text>
+        <mj-text padding="0px 18px 23px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Chard is a slightly bitter, luscious green with large leaves and beautifully colorful stems. Did you know chard is in the same veggie family as beets and amaranth? Have a delicious savory breakfast of <a href="https://www.bonappetit.com/recipe/lentils-with-cucumbers-chard-and-poached-egg" target="_blank" class="link-color">Lentils with Cucumbers, Chard and Poached Egg</a>, or try your hand at homemade <a href="https://www.bonappetit.com/recipe/clam-chard-and-bacon-pizza" target="_blank" class="link-color">Clam, Chard, and Bacon Pizza</a>. If you're up at the lake this week, how about an <a href="https://www.bonappetit.com/recipe/almond-crusted-trout-with-white-grits-and-swiss-chard" target="_blank" class="link-color">Almond-Crusted Trout with White Grits and Swiss Chard</a>?
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-divider padding="18px" border-width="2px" border-style="solid" border-color="#eaeaea" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Addons section -->
+    </mj-raw>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text line-height="125%" font-weight="bold" font-style="normal" font-size="26px" font-family="Helvetica" align="center">
+          This Week's Add Ons
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-group>
+        <mj-column width="50%">
+          <mj-image width="264px" height="176.11px" padding="0px 10px 0px 10px" container-background-color="#ffffff" src="/assets/bread.jpg" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-text padding="0 0 20px 0" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+            If you purchased add-ons with your share, here's what you will see this week:
+          </mj-text>
+          <mj-text padding="0" color="#000000" line-height="200%" font-weight="bold" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+            Eggs (weekly)
+          </mj-text>
+          <mj-text padding="0" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+            <b>Bread from</b> <a href="https://www.brakebread.com/" target="_blank" class="link-color">Brake Bread</a>
+          </mj-text>
+          <mj-text padding="0" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+            <b>Cheese (bi-weekly) from</b> <a href="https://www.alemarcheese.com/" target="_blank" class="link-color">Alemar</a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-divider padding="18px" border-width="2px" border-style="solid" border-color="#eaeaea" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Featured Recipe Section-->
+    </mj-raw>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text line-height="125%" font-weight="bold" font-style="normal" font-size="26px" font-family="Helvetica" align="center">
+          Featured Recipe: Leek, Chard and Corn Flatbread
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-image padding="0" container-background-color="#ffffff" padding-top="9px" src="/assets/chard.jpg" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          These three ingredients cooked together play off each other fantastically; the leeks get deep and sweet; the chard wilts but retains its bulk and the corn kernels crunch across the top. Make tons of this flatbread before summer corn becomes a distant memory. <a href="https://smittenkitchen.com/2012/08/leek-chard-and-corn-flatbread/" target="_blank" class="link-color">Recipe provided by Smitten Kitchen</a> - yields 2 large (9x13ish inches) flatbreads.
+        </mj-text>
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="bold" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Ingredients
+        </mj-text>
+        <mj-text padding="0px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          <ul>
+            <li>About 1 1/2 pounds pizza dough (from two of <a href="https://smittenkitchen.com/2007/01/really-simple-homemade-pizza/" target="_blank" class="link-color">these</a>, or store-bought)</li>
+            <li>1 tablespoon vegetable or olive oil</li>
+            <li>1 tablespoon unsalted butter</li>
+            <li>3 large leeks or a combination of leeks and onions (about 1 1/2 pounds)</li>
+            <li>1 bunch of chard or about 6 cups (6 ounces) of leaves, cut into 1/2-inch ribbons</li>
+            <li>1/2 teaspoon table salt</li>
+            <li>1 cup fresh corn kernels (cut from 1 to 2 medium ears corn)</li>
+            <li>Freshly ground black pepper</li>
+            <li>1 tablespoon unsalted butter</li>
+            <li>Cornmeal, for sprinkling baking surface</li>
+            <li>4-ounce goat cheese (or any cheese), cold</li>
+          </ul>
+        </mj-text>
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="bold" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Directions
+        </mj-text>
+        <mj-text padding="0px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          <ol>
+            <li>Trim the ends off your leeks and halve them lengthwise. Cut them crosswise into 1/2-inch half-rings. Fill a medium bowl with very cold water and drop in sliced leeks. Swish them around with your fingers, letting any sandy dirt fall to the bottom. Scoop out the leeks and drain them briefly on a towel, but no need to get them fully dry. Do the same with your chard ribbons, but you can leave the leaves on towels until they’re nearly fully dry, while you cook the leeks (or leeks and onions).</li>
+            <li>Heat your oven to 450 degrees.</li>
+            <li>Heat a large, heavy skillet over medium heat. Once hot, add butter and oil and once they’re fully melted and a bit sizzly, add the leek slices. Reduce heat to low, cover with a lid and cook leek for 10 to 13 minutes, stirring occasionally.</li>
+            <li>Raise heat back to medium, add the chard ribbons and cook until they wilt, about 4 minutes. Season mixture with salt and freshly ground black pepper, adding more if needed.</li>
+            <li>Finally, add your corn kernels, cooking them with the leeks and chard for just another minute.</li>
+            <li>Sprinkle two baking sheets with cornmeal. If you have pesky old baking trays like I do, and your breads really like to stick to them, I find things will release more reliably if you first lightly spray them with an oil before sprinkling on the cornmeal</li>
+            <li>Roll or stretch half your dough into a rectangular-ish shape (flatbreads are prettiest when they’re irregularly shaped, in my humble opinion) and arrange it on the prepared sheet. Spread half the leek-corn-chard mixture on it. Sprinkle it with half the goat cheese, crumbled into small bits.</li>
+            <li>Bake flatbread in oven for 10 to 15 minutes, until the edges of the bread begin to brown slightly (they might brown more deeply in a better oven than they did in my lousy one). Repeat with remaining dough, filling and goat cheese.</li>
+            <li>To serve, slide each flatbread onto a cutting board and cut into 8 rectangles. Serve immediately.</li>
+          </ol>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-divider padding="18px" border-width="2px" border-style="solid" border-color="#eaeaea" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Farmer Spotlight-->
+    </mj-raw>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text line-height="125%" font-weight="bold" font-style="normal" font-size="26px" font-family="Helvetica" align="center">
+          Farmer Spotlight: Javier Garcia
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-image padding="0" container-background-color="#ffffff" padding-top="9px" src="/assets/farmer.jpg" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Meet Javier Garcia, a provider of your cucumbers this week! Javier is one of a small but growing number of Latino farmers in Minnesota. According to the agricultural census, Minnesota is home to about 112,000 farmers. Of those, only 650 or 0.006% identify as Hispanic or Latino.
+        </mj-text>
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          Javier arrived to the U.S. in 1993 from his home in the Mexican state of Michoacán. “I never imagined I would own land here. But it’s given me the motivation (to keep going) because in Mexico we didn’t have land where we could grow crops,” Javier says. After working several years harvesting crops in California’s Central Valley followed by landscaping work in Los Angeles, Garcia moved to Minnesota. The idea for Agua Gorda, named after his hometown in Mexico, was planted in 2011. He now owns 54 acres in Long Prairie, Minnesota - equivalent to roughly 54 football fields.
+        </mj-text>
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          This year’s crop includes rows of onion, Roma tomatoes and zucchini. The largest section is dedicated to honeydew melons which Javier is contracted to sell to schools in Minneapolis and St. Paul. Although he owns and farms his land, Javier still works at a dairy farm — full-time in the winter and part-time during the farming season — in order to make ends meet. When it’s time to harvest, his adult children and grandchildren all pitch in. But he admitted, he also gets some unwanted help. “The deer also help us harvest."
+        </mj-text>
+        <mj-text padding="23px 18px 0px" color="#0000ee" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          <a href=" https://www.mprnews.org/story/2022/07/12/number-of-latino-farmers-small-but-growing" target="_blank" class="link-color"> Read the rest of Javier's story covered by Vicki Adame from MPR News</a>!
+
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-divider padding="18px" border-width="2px" border-style="solid" border-color="#eaeaea" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- Mike's Mix Sections-->
+    </mj-raw>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text line-height="125%" font-weight="bold" font-style="normal" font-size="26px" font-family="Helvetica" align="center">
+          Mike's Mix - Local Cocktail Recipes!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-group>
+        <mj-column width="30%">
+          <mj-image align="left" width="132px" height="190px" padding="18px" container-background-color="#ffffff" padding-top="9px" src="/assets/drink.jpg" />
+        </mj-column>
+        <mj-column width="70%" padding-right="18px">
+          <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+            Week 10 brings us Blendid
+          </mj-text>
+          <mj-text padding="23px 0px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+            “A fruit-forward adult smoothie with an herbaceous undertone.”
+          </mj-text>
+          <mj-text padding="23px 0px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+            The first of the cantaloupe are hopefully coming next week, so hold onto this one for a week!
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-button border-radius="7px" font-family="Arial" background-color="#003d2b" color="white" width="128px" height="52px" color="#000000" line-height="100%" font-weight="bold" font-size="16px" font-family="Arial" align="center" inner-padding="0">
+          <a href="https://www.mikeaugustyniak.com/recipes/2022/8/blendid" target="_blank" class="button-color">Recipe Here</a>
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="italic" font-size="12px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+          These cocktail recipes are brought to you by <a href="https://farnorthspirits.com/" target="_blank" class="link-color">Far North Spirits</a>, the bartenders at <a href="https://www.meteormpls.com/" target="_blank" class="link-color">Meteor Bar</a>, and WCCO Meteorologist & self-proclaimed "cocktail nerd", <a href="https://www.mikeaugustyniak.com/recipes" target="_blank" class="link-color">Mike Augustyniak</a>!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-divider padding="18px" border-width="2px" border-style="solid" border-color="#eaeaea" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!-- News Section-->
+    </mj-raw>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text line-height="125%" font-weight="bold" font-style="normal" font-size="26px" font-family="Helvetica" align="center">
+          News You Can Use
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          <b>Storytime in the Garden TODAY 8/17 @ 2:30 PM!</b><br>
+          This week’s book will be How Martha Saved Her Parents From Green Beans by Minnesota author David LaRochelle (illustrated by Mark Fearing). Participants might even get to draw a green bean character of their own. Storytime this week will be led by Julie Reimer, former school librarian, and David LaRochelle, the author of the book.
+        </mj-text>
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          <b>Check out the Climate Carnival this Saturday!</b><br>
+          Join neighbors and friends in a fun-filled afternoon of carnival games, exhibits, and festivity, complete with a barbecue at the Lily Pad, 625 Dale Street in St. Paul. The Climate Carnival offers ways for our neighborhood to tackle climate change, and win! Suitable for carnival-lovers of all ages. <a href="https://www.frogtowngreen.com/copy-of-programs" target="_blank" class="link-color">Learn more here</a> and follow <a href="https://www.frogtowngreen.com/copy-of-programs" target="_blank" class="link-color">Frogtown Green on Instagram</a>.
+        </mj-text>
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="left">
+          <b>Join our Farm Share Member Facebook group!</b><br>
+          If you are on Facebook and want to connect with fellow members for extra recipes, storage tips, and other farmer tidbits beyond the newsletter, consider <a href="https://www.facebook.com/groups/517759285851532" target="_blank" class="link-color">joining our private Facebook group here</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff">
+      <mj-column width="100%">
+        <mj-divider padding="18px" border-width="2px" border-style="solid" border-color="#eaeaea" />
+      </mj-column>
+    </mj-section>
+    <mj-raw>
+      <!--Footer-->
+    </mj-raw>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+          <em>Are you following us yet?<br>
+            #TGAFarmShare</em>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="20px" background-color="#ffffff" css-class="header">
+      <mj-group width='149px'>
+        <mj-column>
+          <mj-image href="https://twitter.com/thegoodacremn" target="_blank" align="center" padding="0" height="24px" width="24px" src="/assets/twitter.png" />
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.facebook.com/TheGoodAcreMN/" target="_blank" align="center" padding="0" height="24px" width="24px" src="/assets/facebook.png" />
+        </mj-column>
+        <mj-column>
+          <mj-image href="https://www.instagram.com/thegoodacremn/" target="_blank" align="center" padding="0" height="24px" width="24px" src="/assets/instagram.png" />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section padding="0px" background-color="#ffffff" css-class="header">
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+          <em>Copyright © 2022 The Good Acre, All rights reserved.</em><br>
+          You are receiving this email because you've signed up for a 2022 Farm Share with The Good Acre!
+        </mj-text>
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+          <b>Our mailing address is:</b><br>
+          The Good Acre<br>
+          1790 Larpenteur Ave W<br>
+          Falcon Heights, MN 55113-5736<br>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+          <em>Copyright © 2022 The Good Acre, All rights reserved.</em><br>
+          You are receiving this email because you've signed up for a 2022 Farm Share with The Good Acre!
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 0px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+          <a href="#" class="link-color">Add us to your address book </a>
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text padding="23px 18px 44px" color="#000000" line-height="200%" font-weight="normal" font-style="normal" font-size="14px" font-family="tahoma, verdana, segoe, sans-serif" align="center">
+          Want to change how you receive these emails?<br>
+          You can <a href="#" class="link-color">update your preferences</a> or <a href="#" class="link-color">unsubscribe from this list</a>.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0px 0px 12px 0" background-color="#fafafa" css-class="header">
+      <mj-column width="100%">
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
